@@ -9,6 +9,7 @@ const ErrorDiv = document.querySelector('.error');
 const errorBackGround = document.querySelector('.errorBackGround');
 const errorText = document.querySelector('.errorText');
 ///////////////////////////////////////
+  document.getElementsByTagName('body')[0].style.overflowY = 'hidden';
 
 countriesContainer.classList.add('hidden');
 ErrorDiv.classList.add('hidden');
